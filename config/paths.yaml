@@ -1,0 +1,35 @@
+# ==================================================
+# School Exposome for Wales
+# File paths
+# ==================================================
+
+data:
+
+  schools: "/Users/pedrickr/Documents/Data/Schools"
+
+  trees:
+    wales: "/Users/pedrickr/Documents/Data/Trees/tow_wales.gpkg"
+    england: "/Users/pedrickr/Documents/Data/Trees/FR_TOW_V1_ALL.gdb"
+
+  air_quality:
+    aurn_data: "/Users/pedrickr/Documents/Data/AURN/aurn.parquet"
+    aurn_sites: "/Users/pedrickr/Documents/Data/AURN/aurn_sites.csv"
+
+  deprivation:
+    wimd: "/Users/pedrickr/Documents/Data/WIMD/wimd2025_income.shp"
+
+  collisions:
+    collisions: "/Users/pedrickr/Documents/Data/Stats19/collisions.csv"
+    vehicles: "/Users/pedrickr/Documents/Data/Stats19/vehicles.csv"
+    casualties: "/Users/pedrickr/Documents/Data/Stats19/casualties.csv"
+
+  temperature:
+    lst: "/Users/pedrickr/Documents/Data/Temperature/"
+
+outputs:
+
+  datasets: "outputs/datasets"
+
+  figures: "outputs/figures"
+
+  tables: "outputs/tables"
