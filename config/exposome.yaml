@@ -1,0 +1,53 @@
+domains:
+
+  green_environment:
+    label: "Green Environment"
+    colour: "#2E8B57"
+
+    variables:
+      - pct_canopy_50m
+      - pct_canopy_100m
+      - pct_canopy_250m
+      - pct_canopy_500m
+
+    confidence: "high"
+
+  air_quality:
+    label: "Air Quality"
+    colour: "#D62828"
+
+    variables:
+      - annual_no2
+      - annual_pm25
+
+    confidence: "medium"
+
+  heat:
+    label: "Heat Exposure"
+    colour: "#F77F00"
+
+    variables:
+      - lst_day
+      - lst_night
+
+    confidence: "medium"
+
+  transport_safety:
+    label: "Transport Safety"
+    colour: "#6A4C93"
+
+    variables:
+      - collisions_500m
+      - casualties_500m
+
+    confidence: "high"
+
+  social_environment:
+    label: "Social Environment"
+    colour: "#277DA1"
+
+    variables:
+      - wimd_income
+      - wimd_overall
+
+    confidence: "high"
