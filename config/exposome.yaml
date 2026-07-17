@@ -1,3 +1,15 @@
+project:
+
+  name: "School Exposome for Wales"
+
+  version: "0.1.0"
+
+  author: "Rebecca Pedrick-Case"
+
+  organisation: "ADR Wales"
+
+  coordinate_system: "EPSG:27700"
+
 domains:
 
   green_environment:
@@ -51,3 +63,12 @@ domains:
       - wimd_overall
 
     confidence: "high"
+
+
+    palette:
+
+      canopy: "#2E8B57"
+      air_quality: "#D62828"
+      heat: "#F77F00"
+      collisions: "#6A4C93"
+      deprivation: "#277DA1"
